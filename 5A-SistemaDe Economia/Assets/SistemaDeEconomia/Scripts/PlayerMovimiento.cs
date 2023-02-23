@@ -2,26 +2,35 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerMovimiento : MonoBehaviour
 {
- public float velocidad = 5f; //Velocidad con la que se mueve el jugador.
+    public float speed = 3f;
     private Rigidbody2D playerRb;
     private Vector2 moveInput;
-    void Start()
+    private Animator animator;
+
+    private void Start()
     {
         playerRb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
-  
-    void Update()
+    private void Update()
     {
-        float moveX = Input.GetAxisRaw("Horizontal");//Dirección en el eje X.
-        float moveY = Input.GetAxisRaw("Vertical");//Dirección en el eje Y.
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
         moveInput = new Vector2(moveX, moveY).normalized;
+
+        animator.SetFloat("Horizontal", moveX);
+        animator.SetFloat("Vertical", moveY);
+        animator.SetFloat("Speed", moveInput.sqrMagnitude);
     }
 
     private void FixedUpdate()
     {
-        playerRb.MovePosition(playerRb.position + moveInput * velocidad * Time.fixedDeltaTime);
+        playerRb.MovePosition(playerRb.position + moveInput * speed * Time.fixedDeltaTime);
+
     }
+
 }
