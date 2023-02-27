@@ -10,11 +10,26 @@ public class Objeto : MonoBehaviour
     [SerializeField] TextMeshProUGUI textoObjeto;
     [SerializeField] TextMeshProUGUI precioObjeto;
 
+    private int precio;
+    private Equipo equipo;
+
+    private void Awake()
+    {
+        equipo = FindObjectOfType<Equipo>();
+    }
+
 
     public void CrearObjeto(PlantillaObjeto datosObjeto)
     {
+        precio = datosObjeto.precioObjeto;
         imagenObjeto.sprite = datosObjeto.imagenObjeto;
         textoObjeto.text = datosObjeto.textoObjeto;
         precioObjeto.text = datosObjeto.precioObjeto.ToString();
+    }
+
+    public void ComprarObjeto()
+    {
+        equipo.IncluirEquipo(precio, imagenObjeto);
+
     }
 }
