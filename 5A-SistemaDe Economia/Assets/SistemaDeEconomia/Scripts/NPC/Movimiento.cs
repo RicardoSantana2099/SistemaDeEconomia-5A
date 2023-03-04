@@ -6,6 +6,7 @@ public class Movimiento : MonoBehaviour
 {
     public float speed = 2.0f;
     public float tiempoEnMoverse = 2.0f;
+    public Animator animator;
 
     private Rigidbody2D npcRB;
     private Vector2 direccionDeMovimiento;
@@ -14,6 +15,7 @@ public class Movimiento : MonoBehaviour
     private void Start()
     {
         npcRB = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -24,9 +26,16 @@ public class Movimiento : MonoBehaviour
         {
             direccionDeMovimiento = Random.insideUnitCircle.normalized * speed;
             tiempoDesdeElUltimoMovimiento = 0.0f;
+           
         }
 
         npcRB.MovePosition(npcRB.position + direccionDeMovimiento * Time.deltaTime);
+
+        animator.SetFloat("Horizontal", direccionDeMovimiento.x);
+        animator.SetFloat("Vertical", direccionDeMovimiento.y);
+        animator.SetFloat("Speed", direccionDeMovimiento.sqrMagnitude);
     }
+
+   
 
 }
