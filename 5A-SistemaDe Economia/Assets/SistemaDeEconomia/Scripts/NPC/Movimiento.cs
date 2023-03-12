@@ -36,6 +36,9 @@ public class Movimiento : MonoBehaviour
         animator.SetFloat("Speed", direccionDeMovimiento.sqrMagnitude);
     }
 
-   
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        direccionDeMovimiento = -direccionDeMovimiento; //Cuando impacte con cualquier objeto cambia de dirección.
+    }
 
 }
