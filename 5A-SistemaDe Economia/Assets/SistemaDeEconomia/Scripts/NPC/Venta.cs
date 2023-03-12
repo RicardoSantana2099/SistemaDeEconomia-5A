@@ -14,7 +14,6 @@ public class Venta : MonoBehaviour
 
     public GameObject panelDeEquipo;//Para tener referencia al panel de dialogo. 
     public GameObject panelDeTienda;//Para tener referencia a la tienda.
-    public GameObject botonCerrar;//Para tener referencia al boton de la X.
  
     void Update()
     {
