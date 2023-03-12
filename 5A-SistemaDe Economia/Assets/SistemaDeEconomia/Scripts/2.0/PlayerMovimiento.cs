@@ -32,5 +32,15 @@ public class PlayerMovimiento : MonoBehaviour
         playerRb.MovePosition(playerRb.position + moveInput * speed * Time.fixedDeltaTime);
 
     }
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        string tag = other.collider.tag;
 
+        if(tag.Equals("Moneda"))
+        {
+            Debug.Log("Toma la moneda");
+
+            Destroy(other.gameObject);
+        }
+    }
 }

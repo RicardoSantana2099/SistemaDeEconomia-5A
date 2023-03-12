@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Tienda
   - Equipo
+  - Moneda
   layers:
   - Default
   - TransparentFX

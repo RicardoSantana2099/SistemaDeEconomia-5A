@@ -5,12 +5,14 @@ using UnityEngine;
 public class Inventario : MonoBehaviour
 {
     public GameObject inventario;
+    private bool inventarioAbierto = false;
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E ))
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            inventario.SetActive(!inventario.activeSelf);
+            inventarioAbierto = !inventarioAbierto;
+            inventario.SetActive(inventarioAbierto);
         }
     }
 }
