@@ -1261,6 +1261,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98289f82b98ef614abb88d87480021f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemSpacing: 13
+  ShopMenu: {fileID: 206081005}
+  ShopItemsContainer: {fileID: 425574666}
+  itemPrefab: {fileID: 4155543632950556983, guid: 6f00b900bcbf2a748a5dc2e7ef11920d, type: 3}
+  characterDB: {fileID: 11400000, guid: c8fe4c862f4a01a47871f612a1556e07, type: 2}
   shopUI: {fileID: 815890202}
   openShopButton: {fileID: 1032057053}
   closeShopButton: {fileID: 2127478238}

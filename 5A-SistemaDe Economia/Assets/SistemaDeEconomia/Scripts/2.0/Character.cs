@@ -4,7 +4,7 @@ using UnityEngine;
 
 [System.Serializable]
 
-public struct Personajes 
+public struct Character
 {
     public Sprite image;
     public string name;

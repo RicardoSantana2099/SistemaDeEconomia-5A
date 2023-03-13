@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "BaseDeDatosPersonajesTienda", menuName = "Shooping/Characters shop database")]
-public class BaseDeDatosPersonajesTienda : ScriptableObject
+[CreateAssetMenu(fileName = "CharacterShopDataBase", menuName = "Shooping/Characters shop database")]
+public class CharacterShopDataBase : ScriptableObject
 {
-    public Personajes[] characters;
+    public Character[] characters;
 
     public int CharactersCount
     {
@@ -15,9 +15,9 @@ public class BaseDeDatosPersonajesTienda : ScriptableObject
         }
     }
 
-    public Personajes GetCharacter(int index)
+    public Character GetCharacter(int index)
     {
-        return characters[index];
+        return characters [index];
     }
     public void PurchaseCharacter(int index)
     {
