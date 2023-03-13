@@ -2,17 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Personajes : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+[System.Serializable]
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+public struct Personajes 
+{
+    public Sprite image;
+    public string name;
+    [Range(0, 100)] public float speed;
+    [Range(0, 100)] public float power;
+    public int price;
+
+    public bool isPurchased;
 }

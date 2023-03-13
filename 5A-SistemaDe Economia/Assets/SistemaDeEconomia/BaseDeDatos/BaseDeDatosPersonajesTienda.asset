@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a58fccda904ae704cbfeaf30a96e375d, type: 3}
+  m_Name: BaseDeDatosPersonajesTienda
+  m_EditorClassIdentifier: 
+  characters:
+  - image: {fileID: -1368238217, guid: ad923152d0676fd4fb9e9c6388eac11a, type: 3}
+    name: Eddie
+    speed: 7
+    power: 11
+    price: 0
+    isPurchased: 0
+  - image: {fileID: -686528398, guid: f479184b0f0a77a469a02e596b491ded, type: 3}
+    name: Barry
+    speed: 11
+    power: 9
+    price: 250
+    isPurchased: 0
+  - image: {fileID: 1972508004, guid: 13230479366c63b49bd5a26a35fbf7cb, type: 3}
+    name: Will
+    speed: 12
+    power: 23
+    price: 900
+    isPurchased: 0
+  - image: {fileID: 1292980739, guid: 18b6a4156ec653446bee1079d6c09bd0, type: 3}
+    name: Andy
+    speed: 32
+    power: 27
+    price: 1200
+    isPurchased: 0
