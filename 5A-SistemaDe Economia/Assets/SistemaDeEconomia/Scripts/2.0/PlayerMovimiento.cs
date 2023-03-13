@@ -38,7 +38,13 @@ public class PlayerMovimiento : MonoBehaviour
 
         if(tag.Equals("Moneda"))
         {
-            Debug.Log("Toma la moneda");
+            GameDataManager.AddCoins(32);
+           #if UNITY_EDITOR
+            if (Input.GetKey(KeyCode.C))
+                GameDataManager.AddCoins(179);
+#endif
+
+            GameShareUI.Instance.UpdateCoinsUIText();
 
             Destroy(other.gameObject);
         }
