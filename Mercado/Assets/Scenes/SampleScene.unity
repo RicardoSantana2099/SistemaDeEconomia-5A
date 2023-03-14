@@ -316,9 +316,10 @@ GameObject:
   - component: {fileID: 612648856}
   - component: {fileID: 612648855}
   - component: {fileID: 612648854}
+  - component: {fileID: 612648857}
   m_Layer: 5
   m_Name: Tienda
-  m_TagString: Untagged
+  m_TagString: Tienda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -403,6 +404,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 612648852}
   m_CullTransparentMesh: 0
+--- !u!114 &612648857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612648852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3c7afd5c735824ab62ab6ab9c438f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabObjetoTienda: {fileID: 6848775579902217496, guid: 180a0a7c7aff6164390029275bde00f7,
+    type: 3}
+  numeroMaximoObjetosTienda: 5
+  listaTienda:
+  - {fileID: 11400000, guid: 71655729503fe604da138afc07080774, type: 2}
+  - {fileID: 11400000, guid: b3c91fcc1357b52488e548b6bb51c04e, type: 2}
+  - {fileID: 11400000, guid: c5a3406fb7e53204f8040fa987227f4a, type: 2}
+  - {fileID: 11400000, guid: 90c6e5ca4e9b43d4194d8a04f87918b7, type: 2}
+  - {fileID: 11400000, guid: bf28082e654bbc8499db353061e0b3c3, type: 2}
+  listaProvisionalTienda: []
 --- !u!1 &827305626
 GameObject:
   m_ObjectHideFlags: 0
@@ -548,7 +571,7 @@ GameObject:
   - component: {fileID: 899771766}
   - component: {fileID: 899771765}
   m_Layer: 5
-  m_Name: Image
+  m_Name: LogoTienda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: PlayeraBlanca
   m_EditorClassIdentifier: 
   imagenObjeto: {fileID: 21300000, guid: 809e2b04038f98744980f0eee5f1e6c6, type: 3}
-  textoObjeto: PlayeraB
+  textoObjeto: Prenda B
   precioObjeto: 20

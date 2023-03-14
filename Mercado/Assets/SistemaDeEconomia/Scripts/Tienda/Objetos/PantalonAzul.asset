@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: PantalonAzul
   m_EditorClassIdentifier: 
   imagenObjeto: {fileID: 21300000, guid: 166a0446bef73c3429911f22bb62d926, type: 3}
-  textoObjeto: PantalonA
+  textoObjeto: Pants
   precioObjeto: 30
