@@ -1,18 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class Objeto : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] Image imagenObjeto;
+    [SerializeField] TextMeshProUGUI textoObjeto;
+    [SerializeField] TextMeshProUGUI precioObjeto;
 
-    // Update is called once per frame
-    void Update()
+    public void CrearObjeto(PlantillaObjeto datosObjeto)
     {
-        
+        imagenObjeto.sprite = datosObjeto.imagenObjeto;
+        textoObjeto.text = datosObjeto.textoObjeto;
+        precioObjeto.text = datosObjeto.precioObjeto.ToString();
     }
 }
