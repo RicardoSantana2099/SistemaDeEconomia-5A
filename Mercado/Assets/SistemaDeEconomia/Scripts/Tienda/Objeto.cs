@@ -20,7 +20,7 @@ public class Objeto : MonoBehaviour
 
     public void CrearObjeto(PlantillaObjeto datosObjeto)
     {
-        precio = datosObjeto.precioObjeto;
+        precio = datosObjeto.precioObjeto; //Se va a actualizar el dinero con el del scriptable.
         imagenObjeto.sprite = datosObjeto.imagenObjeto;
         textoObjeto.text = datosObjeto.textoObjeto;
         precioObjeto.text = datosObjeto.precioObjeto.ToString();
@@ -28,6 +28,6 @@ public class Objeto : MonoBehaviour
 
     public void ComprarObjeto()
     {
-        equipo.IncluirEquipo(precio, imagenObjeto);
+        equipo.IncluirEquipo(precio, imagenObjeto); //Este se va a ejecutar cuando se presione el boton.
     }
 }
