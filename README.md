@@ -10,14 +10,14 @@ interactuar con los objetos y poder comprarlo.
 1. Plantilla objeto (este se encarga de definir las caracteristicas de cada uno de 
 nuestros objetos en nuestra tienda)
 2. Objeto (Este es el encargado de gestionar los elementos que se pasan del objeto scriptable al prefab)
-3. Lluvia (genera de manera aleatoria objetos)
-4. Rocas (Que pasa si una roca toca al jugador)
-5. Fondo (el fondo se va a mover con el jugador)
-6. Menú inicial (como funciona el menú principal)
+3. Tienda (va a gestionar la aparición de objetos aleatorios)
+4. Equipo (Va a gestionar la cantidad de dinero y transferir los items)
+5. Movimiento (Al fondo hay NPC que se mueven solos)
 
 
-# Instalación:
-1. Ingrese al link https://github.com/RicardoSantana2099/5A-SistemaDeDialogos
+
+# Descarga:
+1. Ingrese al link: https://github.com/RicardoSantana2099/SistemaDeEconomia-5A
 2. Da click en el botón verde con el titulo “Code” y descárgalo en “Donlwoad Zip”
 3. Una vez descargado el documento lo vas a extraer en tu pc.
 4. Importa el paquete a tu proyecto.
