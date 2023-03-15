@@ -2850,7 +2850,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c5a3406fb7e53204f8040fa987227f4a, type: 2}
   - {fileID: 11400000, guid: 90c6e5ca4e9b43d4194d8a04f87918b7, type: 2}
   - {fileID: 11400000, guid: bf28082e654bbc8499db353061e0b3c3, type: 2}
-  - {fileID: 11400000, guid: e1a78011179aa1f4dbe1a32cdb7be197, type: 2}
   listaProvisionalTienda: []
 --- !u!1 &827305626
 GameObject:
@@ -3514,7 +3513,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.30200002, y: 0.066}
   m_AnchorMax: {x: 0.98700005, y: 0.8815105}
-  m_AnchoredPosition: {x: -0.000015258789, y: 2.6175003}
+  m_AnchoredPosition: {x: -0.000015258789, y: 2.617508}
   m_SizeDelta: {x: 3.058197, y: 5.2351074}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1531255078
@@ -3529,7 +3528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b92abbb10655884582a4fca90dd10a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dineroTotal: 2000
+  dineroTotal: 300
   textoDinero: {fileID: 196038088}
   objetoDeEquipo: {fileID: 4289834187298049669, guid: 180a0a7c7aff6164390029275bde00f7,
     type: 3}
