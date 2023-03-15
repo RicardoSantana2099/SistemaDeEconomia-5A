@@ -45,7 +45,7 @@ El juego esta creado en un pequeño pueblo donde hay gente vendiendo cosas.
 
 1 Panel.
 
-6 Prendas
+5 Prendas
 
 # Lo quieres jugar y ver que se puede hacer? Entra a esta carpeta
 
