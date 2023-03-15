@@ -29,4 +29,5 @@ public class Equipo : MonoBehaviour
             textoDinero.text = dineroTotal.ToString();// Se va a actualzar el texto de dinero para dar la nueva cantidad.
         }
     }
+
 }
