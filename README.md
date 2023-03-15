@@ -49,7 +49,7 @@ El juego esta creado en un pequeño pueblo donde hay gente vendiendo cosas.
 
 # Lo quieres jugar y ver que se puede hacer? Entra a esta carpeta
 
-5A-SistemaDeDialogos/Juego/5A-SistemaDeDialogos
+SistemaDeEconomia/Mercado/Juego
 
 
 # Como sirve el codigo? Encuentra mayor explicación en la carpeta documentación que se encuentra en: 
