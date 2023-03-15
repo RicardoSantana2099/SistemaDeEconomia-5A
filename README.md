@@ -14,8 +14,6 @@ nuestros objetos en nuestra tienda)
 4. Equipo (Va a gestionar la cantidad de dinero y transferir los items)
 5. Movimiento (Al fondo hay NPC que se mueven solos)
 
-[www.youtube.com]
-
 # Descarga:
 1. Ingrese al link: https://github.com/RicardoSantana2099/SistemaDeEconomia-5A
 2. Da click en el botón verde con el titulo “Code” y descárgalo en “Donlwoad Zip”
@@ -24,38 +22,30 @@ nuestros objetos en nuestra tienda)
 
 
 # Como Jugar
-1. Con las letras A y D se mueve para la izquierda y la derecha.
-2. Con la tecla espacio salta.
-3. Presionando doble vez espacio salta dos veces.
-4. Al estar cerca de un robot con darle click se activa un dialogo que te explica algún
-objetivo.
-
+1. Tienes una cantidad de dinero limitada.
+2. Presiona sobre el item que quieras.
+3. Recuerda tener suficiente dinero para comprarlo.
+4. El limite es la cantidad de items que entre en el equipo.
 
 # Acerca del Juego
 
-Tvv1 es un robot muy curioso que esta explorando el mundo para
-conocer más de su alrededor.
+Bienvenido al mercado del pueblo, compra todo lo que puedas.
 
-El juego esta creado en un bosque donde hay una pantalla que esta buscando amigos
-para que prueben su nuevo juego.
+El juego esta creado en un pequeño pueblo donde hay gente vendiendo cosas.
 
 # Este juego incluye:
 
-2 Tipos de rocas.
+1 Valla.
 
-3 robots.
+6 NPC.
 
-4 Fondos.
+1 Suelo.
 
-17 Tipos de tierra para decorar el mapa.
+1 Carrito de comida.
 
-2 Carteles.
+1 Panel.
 
-1 Jugador.
-
-2 Mouse.
-
-2 Signos de admiración.
+6 Prendas
 
 # Lo quieres jugar y ver que se puede hacer? Entra a esta carpeta
 
