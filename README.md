@@ -54,5 +54,5 @@ El juego esta creado en un pequeño pueblo donde hay gente vendiendo cosas.
 
 # Como sirve el codigo? Encuentra mayor explicación en la carpeta documentación que se encuentra en: 
 
-5A-SistemaDeDialogos/Assets/SistemaDeDialogo/Documentación
+[5A-SistemaDeDialogos/Assets/SistemaDeDialogo/Documentación](https://github.com/RicardoSantana2099/SistemaDeEconomia-5A/tree/main/Mercado/Assets/SistemaDeEconomia/Documentaci%C3%B3)
 
