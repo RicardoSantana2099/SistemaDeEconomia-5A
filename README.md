@@ -1,9 +1,9 @@
-# 5A-SistemaDeDialogos
-Este repositorio esta encargado de almacenar la practica de sistema de diálogos para la clase de programación del grupo 5-A.
+# 5A-Sistema De Economía
+Este repositorio esta encargado de almacenar la practica de sistema de economía para la clase de programación del grupo 5-A.
 
 
-Este juego tiene como objetivo mostrar el sistema de diálogos sencillo y pueda
-interactuar con distintos personajes dentro del juego.
+Este juego tiene como objetivo mostrar el sistema de economía  de manera sencilla y pueda
+interactuar con los objetos y poder comprarlo.
 Contiene 6 scripts:
 1. Sistema de dialogo (este se activa cuando el jugador toque algún objeto con este
 script, lo cual va a activa el dialogo)
