@@ -14,7 +14,7 @@ nuestros objetos en nuestra tienda)
 4. Equipo (Va a gestionar la cantidad de dinero y transferir los items)
 5. Movimiento (Al fondo hay NPC que se mueven solos)
 
-
+[www.youtube.com]
 
 # Descarga:
 1. Ingrese al link: https://github.com/RicardoSantana2099/SistemaDeEconomia-5A
