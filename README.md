@@ -14,7 +14,7 @@ script, lo cual va a activa el dialogo)
 6. Menú inicial (como funciona el menú principal)
 
 
-# Instalación:
+# Instalación: https://github.com/RicardoSantana2099/5A-SistemaDeDialogos
 1. Ingrese al link https://github.com/RicardoSantana2099/5A-SistemaDeDialogos
 2. Da click en el botón verde con el titulo “Code” y descárgalo en “Donlwoad Zip”
 3. Una vez descargado el documento lo vas a extraer en tu pc.
